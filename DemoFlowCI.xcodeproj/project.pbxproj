@@ -15,6 +15,8 @@
 		E945C36A1E80D0990090FE29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E945C3681E80D0990090FE29 /* LaunchScreen.storyboard */; };
 		E945C3751E80D09A0090FE29 /* DemoFlowCITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E945C3741E80D09A0090FE29 /* DemoFlowCITests.m */; };
 		E945C3801E80D09A0090FE29 /* DemoFlowCIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E945C37F1E80D09A0090FE29 /* DemoFlowCIUITests.m */; };
+		E97D61521E8651020050CB7D /* allsounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = E97D61511E8651020050CB7D /* allsounds.plist */; };
+		E97D61571E87FF4C0050CB7D /* white.plist in Resources */ = {isa = PBXBuildFile; fileRef = E97D61561E87FF4C0050CB7D /* white.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +46,15 @@
 		E945C3641E80D0990090FE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E945C3661E80D0990090FE29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E945C3691E80D0990090FE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E945C36B1E80D0990090FE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E945C36B1E80D0990090FE29 /* DemoFlowCI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoFlowCI-Info.plist"; sourceTree = "<group>"; };
 		E945C3701E80D09A0090FE29 /* DemoFlowCITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoFlowCITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E945C3741E80D09A0090FE29 /* DemoFlowCITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoFlowCITests.m; sourceTree = "<group>"; };
 		E945C3761E80D09A0090FE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E945C37B1E80D09A0090FE29 /* DemoFlowCIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoFlowCIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E945C37F1E80D09A0090FE29 /* DemoFlowCIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoFlowCIUITests.m; sourceTree = "<group>"; };
 		E945C3811E80D09A0090FE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97D61511E8651020050CB7D /* allsounds.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = allsounds.plist; sourceTree = "<group>"; };
+		E97D61561E87FF4C0050CB7D /* white.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = white.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		E945C3591E80D0990090FE29 /* DemoFlowCI */ = {
 			isa = PBXGroup;
 			children = (
+				E97D61561E87FF4C0050CB7D /* white.plist */,
+				E97D61511E8651020050CB7D /* allsounds.plist */,
 				E945C35D1E80D0990090FE29 /* AppDelegate.h */,
 				E945C35E1E80D0990090FE29 /* AppDelegate.m */,
 				E945C3601E80D0990090FE29 /* ViewController.h */,
@@ -108,7 +114,7 @@
 				E945C3631E80D0990090FE29 /* Main.storyboard */,
 				E945C3661E80D0990090FE29 /* Assets.xcassets */,
 				E945C3681E80D0990090FE29 /* LaunchScreen.storyboard */,
-				E945C36B1E80D0990090FE29 /* Info.plist */,
+				E945C36B1E80D0990090FE29 /* DemoFlowCI-Info.plist */,
 				E945C35A1E80D0990090FE29 /* Supporting Files */,
 			);
 			path = DemoFlowCI;
@@ -249,6 +255,8 @@
 			files = (
 				E945C36A1E80D0990090FE29 /* LaunchScreen.storyboard in Resources */,
 				E945C3671E80D0990090FE29 /* Assets.xcassets in Resources */,
+				E97D61571E87FF4C0050CB7D /* white.plist in Resources */,
+				E97D61521E8651020050CB7D /* allsounds.plist in Resources */,
 				E945C3651E80D0990090FE29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WLX3R7TP32;
-				INFOPLIST_FILE = DemoFlowCI/Info.plist;
+				INFOPLIST_FILE = "DemoFlowCI/DemoFlowCI-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mdj.FlowCI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,7 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WLX3R7TP32;
-				INFOPLIST_FILE = DemoFlowCI/Info.plist;
+				INFOPLIST_FILE = "DemoFlowCI/DemoFlowCI-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mdj.FlowCI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +520,7 @@
 				E945C3861E80D09A0090FE29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E945C3871E80D09A0090FE29 /* Build configuration list for PBXNativeTarget "DemoFlowCITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +529,7 @@
 				E945C3891E80D09A0090FE29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E945C38A1E80D09A0090FE29 /* Build configuration list for PBXNativeTarget "DemoFlowCIUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +538,7 @@
 				E945C38C1E80D09A0090FE29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
